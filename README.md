@@ -6,5 +6,9 @@ For further documentation and API reference, see the docs: https://www.sadcaptch
 
 
 # SadCaptcha Python Client
-We are currently developing a Python client for SadCaptcha, which will make integration as simple as one line of code.
-It will soon be available as a `pip` package, but for now you can clone the repository: https://github.com/gbiz123/tiktok-captcha-solver
+Python users should use the Python client. 
+It makes integration with Selenium and Playwright as simple as one line of code:
+```
+solver.solve_captcha_if_present()
+```
+Check out the Python client repo for instructions: https://github.com/gbiz123/tiktok-captcha-solver/
